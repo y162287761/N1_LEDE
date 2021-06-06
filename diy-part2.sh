@@ -19,8 +19,8 @@ sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generat
 #git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
-git clone https://github.com/kenzok8/openwrt-packages.git package
-git clone https://github.com/kenzok8/small.git package
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/small.git package/small
 
 
 #Add Utilities 
