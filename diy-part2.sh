@@ -19,7 +19,6 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
-git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
 
 
 #Add Utilities 
