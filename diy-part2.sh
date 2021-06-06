@@ -11,4 +11,20 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generate
+
+#Add app
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
+git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
+
+
+#Add Utilities 
+git clone https://github.com/tuanqing/install-program package/install-program
+
+
+#Add theme
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
